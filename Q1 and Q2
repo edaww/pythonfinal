@@ -1,0 +1,16 @@
+#Q1 answer
+
+def flatten(input):
+    for i in input:
+        if isinstance(i,list):
+            flatten(i)
+        else:
+            output.append(i)
+            
+            
+#Q2 answer
+
+input.reverse()
+for i in range(len(input)):
+    input[i] =input[i][::-1]
+            
